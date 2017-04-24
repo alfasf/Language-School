@@ -1,0 +1,719 @@
+html{
+	background-color: #fff;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #f6f6f6 !important;
+	
+}
+
+.container{
+	max-width: 985px;
+	margin: 0 auto;
+}
+
+#LogoSchool{
+	display: inline-block;
+	width: 75%;
+	height: auto;
+}
+
+/*Header section*/
+
+#preheader .preheader1 a.spanish{
+	display: inline;
+	color: #0b5fb1;
+	font-weight: bolder;
+	position: relative;
+	left: 350px;
+	bottom: 7px;
+}
+
+#preheader .preheader1 .login{
+	float: right;
+	margin-right: 125px;
+	margin-top: -15px;
+}
+
+#preheader .preheader1 .login .btn.btn-primary{
+	background-color: #fff;
+} /*it doesnt change background color for btn*/
+
+
+#preheader .preheader-hidden{
+	display: none;
+}
+
+.socialmedia{
+	float: left;
+	margin: 3px auto;
+}
+
+.top-address{
+	display: inline-block;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 85%;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0 175px;
+}
+
+#topaddress{
+	margin: 0 -300px;
+}
+
+.headermenu{
+	background-color: #fff;
+	padding-bottom: 1px;
+	border: 2px solid #0000001A;
+}
+
+
+.navbar-fixed-top{
+	z-index: 9999;
+}
+
+#title-header{
+	margin: auto;
+	box-sizing: border-box;
+}
+
+
+#title-header h1.title{
+	display: inline;
+	right: 220px;
+	padding: 5px;
+	 /*eliminated position relative, bottom and left*/
+	font-family: 'Francois One', sans-serif;
+	font-size: 23px;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+#motto{
+
+	display: inline-block;
+	font-family: 'Damion', cursive;
+	font-size: 15px;
+	letter-spacing: 2px;
+	/*eliminated position relative and bottom*/
+	color: #000000b3;
+
+}
+
+.col-md-8{
+	margin-top: 25px;
+}
+
+
+
+@media screen and (max-width: 991px){
+
+	#preheader{
+		display: none;
+	}
+
+	#motto{
+		display: none;
+	}
+
+	.name-motto{
+		display: inline-block;
+		margin-left: 50%;
+		}
+
+	.navmenu .nav li{
+		margin-right: 0;
+
+	}
+}
+
+@media screen and (max-width: 766px){
+
+	.col-xs-12{
+		margin: 15px auto;
+	}
+
+	
+
+}
+
+.
+
+
+/*Slideshow Pictures*/
+
+
+/*Navigation Menu Style  */
+
+.navmenu{
+  margin: 0 auto;
+}
+
+
+
+.navmenu ul{
+	float: left;
+
+}
+
+.navmenu li{
+	display: inline-block;
+	list-style: none;
+	margin-right: 7px;
+}
+
+
+@media screen and (max-width: 990px){
+  .navmenu li{
+    display: inline-block;
+    margin-top: 5px;
+    
+  }
+}
+
+.navmenu a{
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px 5px;
+	border: 2px solid #065aad;
+	color: #065aad;
+	font-size: 1.1em;
+	text-transform: uppercase;
+	background-color: #f89d00;
+	font-weight: bold;
+	transition-property: color, background-color;
+	transition-duration: 1s;
+}
+
+.nav-pills > li > a {
+	border-radius: 7px;
+	padding: 7px 20px;
+}
+
+.nav-pills> li > a:hover, .nav-pills> li > a:focus {
+	background-color: #ff7f00;
+}
+
+
+/* Clear fix */
+
+.clear{
+	clear: both;
+}
+
+.clearfix:after{
+	content: ".";
+	display: none;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.clearfix{display: inline-block;}
+
+/* Home body container  */
+
+div.container{
+	padding: 0;
+}
+
+.row.block1>.col-md-4{
+  padding: 0;
+}
+
+h3.description{
+	font-family: "Lucida Sans Unicode", sans-serif;
+	font-size: 215%;
+	font-weight: bold;
+}
+
+p.bodydescription{
+	font-size: 25px;
+	line-height: 150%;
+	text-align: justify;
+	
+}
+
+#block1 {
+  margin-top: 280px;
+}
+
+.row.block1{
+	
+	margin: 85px -10px;
+	background-color: #ff7f00;;
+	box-sizing: border-box;
+}
+
+
+
+.jumbotron{
+  background-color: white !important;
+  margin-top: -50px;
+  padding-top: 10px;
+  
+}
+
+
+.jumbotron a.button{
+	text-decoration: none;
+	font-size: 18px;
+	padding: 11px;
+	border: 2px solid #4d92e0;
+	border-radius: 10px;
+	background-color: #7eacf099;
+	color: #0009;
+
+}
+
+/*About Body Content  */
+
+.container .maincontainer{
+	margin-top: 230px;
+	margin-bottom: 70px;
+	padding: 0 20px;
+
+}
+
+.maincontainer p.aboutprgh{
+	font-size: 22px;
+	line-height: 200%;
+}
+
+#half-column{
+	border-left: 1px solid #0000001a;
+}
+
+
+
+.maincontainer h2.aboutheaders{
+	font-weight: bold;
+	font-size: 26px;
+	color: #7d2be2cc;
+	text-align: center;
+}
+
+#listreasons{
+	margin: 0 15px;
+	padding-bottom: 85px;
+
+}
+
+#listreasons .listreasons h2.aboutheaders{
+	font-weight: bold;
+	font-size: 26px;
+	color: #7d2be2cc;
+	text-align: center;
+}
+
+#listreasons .listreasons ul.reasonlist li{
+	font-size: 22px;
+	line-height: 200%;
+	text-align: center;
+}
+
+#listreasons .listreasons ul.reasonlist li:before {
+    content: "✔";
+    margin-right: 4px;
+}
+.container .imgcontainer{
+	margin-top: -50px;
+	padding: 120px;
+	background-image: url(../images/gueguense.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	opacity: 0.75;
+	background-color: #000;
+}
+
+@media screen and (max-width: 991px){
+	.container .imgcontainer{
+		display: none;
+	}
+}
+
+#noparagraph{
+	visibility: hidden;
+}
+
+
+/*Programs Content*/
+
+span.rainbowtext{
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-family: 'Coming Soon', cursive;
+  font-weight: bold;
+}
+
+.container section .programsdividers{
+	margin-top: 75px;
+}
+
+section .programsdividers span.schoolprogram{
+	font-weight: bold;
+	color: #de470be6;
+}
+
+section .programsdividers a.underlinelink{
+	font-style: italic;
+	text-decoration: underline;
+}
+
+.programbody .col-md-4 img.kidzprog{
+	position: relative;
+	bottom: 13px;
+	transform: rotate(15deg);
+}
+
+#myschoollogo{
+	width: 20%;
+	float: left;
+}
+
+
+
+/*Programs 2 Content*/
+
+section .programbody ul.levels{
+	font-size: 22px;
+}
+
+section .programbody ul.levels li{
+	display: inline-block;
+}
+
+
+#kidzlearning{
+	margin: 35px auto;
+}
+
+/*Services Content*/
+
+.container section .programbody h2.servheading{
+	font-weight: bold;
+}
+
+section .programbody .row .col-md-12 h3.svcheadings,
+section .programbody .servicesection h3.svcheadings{
+	text-decoration: underline;
+	display: inline-block;
+}
+
+section .servicesection{
+	margin: 50px 0px;
+	padding: 5px;
+	box-sizing: border-box;
+}
+
+#guardabird{
+	display: inline-block;
+	width: 4%;
+}
+
+#vigoron{
+	width: 75%;
+}
+
+.clearfix{
+	overflow: auto;
+}
+
+#complab{
+	opacity: 0.8;
+	padding: 60px 0;
+}
+
+#trans-img{
+	max-width: 100%;
+	padding: 95px 0;
+}
+
+
+#libraryimg{
+	padding: 95px 0;
+}
+
+/* Tables Content*/
+section table{
+	margin: 30px auto;
+}
+
+.table > thead > tr > th{
+	border-bottom: 1px solid black;
+	background-color: #006fff80;
+}
+
+section table, th, td{
+	border: 1px solid black;
+}
+
+section table, td{
+	text-align: right;
+}
+
+section table th{
+	font-size: 20px;
+	text-align: center;
+}
+
+section .programbody{
+	margin-top: 260px;
+}
+
+p.aboutprgh{
+	font-size: 22px;
+	line-height: 200%;
+}
+
+
+tbody td.tableparagraph{
+	font-size: 20px;
+	line-height: 200%;
+}
+
+@media screen and (max-width: 991px){
+	#myschoollogo{
+		float: none;
+		max-width: 55%;
+		margin: 0 auto;
+	}
+
+
+	section img.kidzprog{
+		transform: none !important;
+		max-width: 50%;
+		margin: 0 auto;
+		box-sizing: border-box;
+	}
+
+	p.aboutprgh{
+		padding: 0 12px;
+	}
+
+	section table{
+		width: 85%;
+		margin: 15px auto;
+	}	
+}
+
+@media screen and (max-width: 767px){
+	section table.table{
+		width: 90%;
+		margin: 15px auto;
+	}	
+}
+
+/* Events Calendar */
+
+.container .calendar-table{
+	margin: 10px auto;
+}
+
+.container .calendar-table thead th.calendarheader, .container .calendar-table thead th.nobackgroundcolor{
+	font-size: 15px;
+	background-color: #b2cef280;
+}
+
+.container .calendar-table thead th a.month-title{
+	font-size: 22px;
+	font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+	color: #000;
+}
+
+.container .programbody ul{
+	list-style: square;
+}
+
+.container .programbody ul li{
+	font-size: 1.15em;
+	line-height: 170%;
+}
+
+#list-holidays{
+	position: relative;
+	left: 300px; 
+	bottom: 5px;
+} 
+
+/*Contacts*/
+
+.container .col-md-6 .contactcontent{
+	padding: 50px;
+	font-size: 1.1em;
+}
+
+.container .programbody .col-md-6 table#tablecontact tbody .tableparagraph{
+	padding: 20px 85px;
+}
+
+
+/* Footer */
+
+footer{
+	background-color: #065aad;
+}
+
+#signup{
+	font-family: 'Lato', 'Helvetica', arial, serif;
+	font-size: 16px;
+	font-weight: bolder;
+	color: white;
+	margin-top: 20px;
+	margin-left: 3px;
+
+}
+
+label{
+	display: none;
+}
+
+.formwrapper{
+	padding-left: 3px;
+	box-sizing: border-box;
+}
+
+input[type="email"]{
+
+	padding: 5px 0px;
+	border: 1px solid #CDCDCD;
+}
+
+.hidden-label{
+	overflow: hidden;
+	visibility: hidden;
+}
+
+.btn{
+	margin-top: 1px;
+	padding: 3px 5px;
+}
+
+.btn-default{
+	background-color: #ec9412;
+	font-family: 'Lato', 'Helvetica', arial, serif;
+	font-size: 87%;
+}
+
+.social-media{
+	margin-top: 20px:;
+}
+
+p.followus{
+	margin-top: 20px;
+	color: #000;
+	font-weight: bolder;
+}
+
+h5.minilist{
+	margin-top: 20px;
+	color: #000;
+	font-weight: bolder;
+}
+
+.minifooter li{
+	/*list-style: circle;*/
+	margin: 7px;
+	font-weight: bold;
+}
+
+ul {
+    list-style: none;
+}
+
+.minifooter li:before {
+    content: "+";
+    margin-right: 4px;
+}
+
+.minifooter li a{
+	color: #fff;
+	text-decoration: none;
+}
+
+footer .mainfooter ul.minifooter{
+	
+	text-align: left;
+	margin: 0;
+	padding: 0;
+
+}
+
+.minicontact{
+	color: #fff;
+	font-size: 15px;
+	line-height: 105%;
+}
+
+#minicontact{
+	color: #e6b016;
+
+}
+
+.miniaddress{
+	margin-top: 20px;
+	float: left;
+	padding: 0 7px 0 0;
+	font-weight: bold;
+}
+
+#subfooter{
+	display: inline-block;
+	padding: 20px 0px;
+}
+
+footer .subfooter span.minisubfooter{
+	display: block;
+	font-size: 13px;
+	font-weight: bold;
+	float: right;
+	line-height: 25%;
+}
+
+
+/* Media queries entries  */
+@media screen and (max-width: 991px){
+	footer .col-md-3{
+		width:100%;
+		display:inline-block;
+		text-align:center;
+		margin-top:10px;
+						}
+
+	footer .col-md-3 .socialmedia{
+		float: none;
+	}
+
+	footer .mainfooter ul.minifooter{
+		text-align: center;
+		margin: 0;
+		padding: 0;
+	}
+
+	footer .col-md-3 .miniaddress{
+		float: none;
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*   */
