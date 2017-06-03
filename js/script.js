@@ -1,4 +1,4 @@
-$(document).ready(function(){
+/*$(document).ready(function(){
 	$(window).scroll(function(){
 		var scrolltop = $(this).scrollTop();
            if(scrolltop >=20){
@@ -9,6 +9,7 @@ $(document).ready(function(){
            }
 
 	});          
-});
+});*/
 	
+
           
