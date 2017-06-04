@@ -22,19 +22,25 @@ body{
 
 /*Header section*/
 
-#preheader .preheader1 a.spanish{
+#preheader .preheader1 .login-main{
+	float: right;
+	position: relative;
+	bottom: 15px;
+}
+
+
+#preheader .preheader1 .login-main a.spanish{
 	display: inline;
 	color: #0b5fb1;
 	font-weight: bolder;
 	position: relative;
-	left: 350px;
-	bottom: 7px;
+	margin-right: 7px;
 }
 
-#preheader .preheader1 .login{
-	float: right;
-	margin-right: 125px;
-	margin-top: -15px;
+#preheader .preheader1 .login-main .login{
+	float: none;
+	margin-left: 3px;
+	margin-top: 0;
 }
 
 #preheader .preheader1 .login .btn.btn-primary{
