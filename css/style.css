@@ -146,7 +146,6 @@ body{
 
 }
 
-.
 
 
 /*Slideshow Pictures*/
@@ -196,7 +195,8 @@ body{
 
 .nav-pills > li > a {
 	border-radius: 7px;
-	padding: 7px 20px;
+	padding: 7px 12px;
+	font-size: 14px;
 }
 
 .nav-pills> li > a:hover, .nav-pills> li > a:focus {
